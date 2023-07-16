@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+.box-1-logo {
+  padding: 35px;
+}
+
+.box-1 {
+  margin-top: 10%;
+  height: 450px;
+  width: 380px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+}
+
+.app-store-image {
+  width: 136px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+.google-play-image {
+  width: 136px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.box-2 {
+  height: 62px;
+  width: 380px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+input {
+  background-color: rgb(250, 250, 250);
+
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 13px;
+  padding: 9px 0 7px 8px;
+  height: 42px;
+  width: 280px;
+  border: 0;
+  border-radius: 4px;
+
+  outline: none;
+  margin: 5px 0;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.login-button {
+  border-radius: 8px;
+  background-color: #0095f6;
+  color: rgb(255, 255, 255);
+  padding: 5px 9px;
+  border: none;
+  margin-top: 15px;
+  width: 280px;
+  height: 40px;
+
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lines-box {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 13px;
+  height: 10px;
+  color: #8e8e8e;
+  font-weight: bold;
+
+}
+
+.line-1 {
+  margin-right: 10px;
+  width: 106px;
+  height: 1.5px;
+  background-color: #dbdbdb;
+
+}
+
+
+.line-2 {
+  margin-left: 10px;
+  width: 106px;
+  height: 1.5px;
+  background-color: #dbdbdb;
+
+}
+
+.fb-vp{
+  display: flex;
+  margin-left: 23%;
+}
+.fb-link{
+  margin-top: -5%;
+}
+.sign-up-span{
+  color: blue;
+}
